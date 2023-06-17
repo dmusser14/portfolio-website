@@ -344,3 +344,20 @@ button:focus,
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
           animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.contact-info {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+.skills-table {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+}
