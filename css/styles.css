@@ -2,12 +2,12 @@
 Colors used
 
 Text Color (Dark Gray): #2b2b2b;
-Primary Color (Green): #357b70
-Secondary Color (Purple): #ae95be;
+Primary Color (Green): #00675c
+Secondary Color (Purple): #c3d7d3;
 */
 :root {
   --primary-color: #00675c;
-  --secondary-color: #ae95be;
+  --secondary-color: #c3d7d3;
   --dark-grey: #2b2b2b;
   --visited-link: #05676e;
   --selected-link: #489c79;
@@ -31,6 +31,7 @@ body {
   font-weight: var(--body-font-weight);
   font-size: var(--body-font-size);
   line-height: var(--body-line-hieght);
+  background-color: var(--secondary-color);
 }
 
 h1 {
@@ -128,10 +129,6 @@ button:focus,
   text-align: left;
 }
 
-.profile_heading {
-  text-align: center;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -141,6 +138,7 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 100px;
 }
 
 .page-header {
